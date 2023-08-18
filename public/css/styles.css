@@ -1,0 +1,105 @@
+html {
+  background-color: #272829ba;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #272829;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.box {
+  max-width: 600px;
+  margin: 50px auto;
+  background: #445069;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#heading {
+  background-color: #FFF6E0;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+
+.item {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #bcbdbda2;
+  transition: all 0.2s ease;
+}
+
+/* .item:last-child {
+  border-bottom: none;
+} */
+
+input:checked + p {
+  text-decoration: line-through;
+  color: #b9b4c7c1;
+  transition: all 0.2 ease;
+}
+
+input[type="checkbox"] {
+  margin-right: 15px;
+  transform: scale(1.2);
+  transition: all 0.2s ease;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  color: #D8D9DA;
+}
+
+form.item {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #D8D9DA;
+}
+
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #FFF6E0;
+  color: #272829;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #D8D9DA;
+}
+
+input[type="text"] {
+  flex: 1;
+  height: 50px;
+  border: none;
+  background: #61677A;
+  padding: 10px;
+  font-size: 16px;
+  color: #D8D9DA;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 246, 224, 0.5);
+}
+
+::placeholder {
+  color: #D8D9DA;
+}
+
+footer {
+  color: #D8D9DA;
+  text-align: center;
+  padding: 20px;
+}
